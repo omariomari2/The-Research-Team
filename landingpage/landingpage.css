@@ -45,23 +45,23 @@ body{
 }
 @keyframes change{
     0%, 25% {
-        background-image: url(images/wallp.jpg);
+        background-image: url(../landingpage/images/wallp.jpg);
     }
     25%, 50%{
-        background-image: url(images/back2.jpg);
+        background-image: url(../landingpage/images/back2.jpg);
     }
 
     50%, 75%{
-        background-image: url(images/back3.jpg);
+        background-image: url(../landingpage/images/back3.jpg);
     }
 
     75%, 100%{
-        background-image: url(images/wallp.jpg);
+        background-image: url(../landingpage/images/wallp.jpg);
     }
 
 }
 .main{
-    height: 70em; background-image: url(images/wallp.jpg); background-size: 100%; top: 17vh;
+    height: 70em; background-image: url(../landingpage/images/wallp.jpg); background-size: 100%; top: 17vh;
     display: grid; grid-template-columns: 2fr 3fr; max-width: fit-content; animation: change 15s infinite;
     animation-delay: 10s;
 }   
