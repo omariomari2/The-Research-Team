@@ -173,11 +173,11 @@ h1{
     border-top: black 2px; background-color: white; border-top-style:groove; text-align: center;
 }
 
-.team-section h1{
+.team-section h1, .section h1{
     color: black; font-family: 'Poppins', sans-serif; color: rgba(48, 48, 9); opacity: 0.2; 
     text-align: center; transition: all 0.4s; cursor: pointer;
 }
-.team-section h1:hover{
+.team-section h1:hover, .section h1:hover{
     transform: scaleX(1.1); text-decoration: underline; opacity: 0.9;
 }
 .about-research{
@@ -264,7 +264,7 @@ h1{
 
 /* Set background for first card */
 .profile-card:nth-child(2) .card-front {
-    background-image: url('../images/profile.JPG');
+    background-image: url('../teammate/img/profile.JPG');
 }
 .profile-card:nth-child(3) .card-front {
     background-image: url('../teammate/img/kelvin.jpg');
