@@ -264,7 +264,7 @@ h1{
 
 /* Set background for first card */
 .profile-card:nth-child(2) .card-front {
-    background-image: url('../landingpage/images/profile.JPG');
+    background-image: url('../images/profile.JPG');
 }
 .profile-card:nth-child(3) .card-front {
     background-image: url('../teammate/img/kelvin.jpg');
